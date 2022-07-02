@@ -6,6 +6,15 @@
 	<title>Home Page</title>
 </head>
 <body>
+	<center>
 	<h1>Hello World</h1>
+	<br><br>
+	As of {{current_time}}
+	<br><br>
+	<!-- safe filter makes the rendered html secure -->
+	{{cal|safe}} 
+	<br><br><br><br>
+	Copyright (c) {{current_year}}
+	</center>
 </body>
 </html>
